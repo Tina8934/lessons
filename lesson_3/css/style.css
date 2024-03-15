@@ -1,0 +1,43 @@
+@import url("reset.css");
+
+h1 {
+	color: aqua;
+}
+a {
+	color: rgb(77, 147, 209)
+}
+#sentence {
+	color: brown;
+}
+[class*="ess"] {
+	color: blue;
+}
+div.block {
+	color: cadetblue;
+}
+.text.page__text {
+	color: purple;
+}
+.title,
+.text,
+ul {
+	color: deeppink;
+}
+.line p {
+	color: chartreuse;
+}
+.line * {
+	color: chocolate;
+}
+.page > p {
+	color: rgb(175, 145, 168);
+}
+.paragraf * {
+	color: darkgoldenrod;
+}
+.paragraf~ p {
+	color: deepskyblue;
+}
+.viewport + p {
+	color: darkgreen;
+}
