@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600;700;800;900&family=Sixtyfour&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Ojuju:200,300,regular,500,600,700,800");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+
+body {
+	font-family: "Ojuju",sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(13, 18, 22, 0.96);
+	font-style: normal;
+	
+}
+h1 {
+	font-family: "Montserrat Alternates", sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 800;
+	color: rgba(137, 43, 226, 0.588);
+	text-align: center;
+	line-height: 161.111111%; /* 58/36 */
+	text-shadow: 2px 2px 4px hsl(139, 93%, 47%);
+	}
+
+h2 {
+		text-align: right;
+		font-weight: 600;
+		font-size: 40px;
+		text-decoration: overline;
+		line-height: 150%; /* 60/40 */ ;
+		text-decoration-style: dotted;
+		text-shadow: -2px 3px 5px hsl(244, 95%, 23%);
+		
+	}
+	.format  {
+		text-decoration: line-through;
+		text-decoration-color: blueviolet;
+		text-shadow: none;
+	}
+.page {
+		text-align: justify;
+		color: blue;
+		
+		
+		
+	}
+	.style {
+		color: chartreuse;
+		text-decoration: underline;
+	}
+	.title {
+		text-transform: uppercase;
+	}
+	
+.format {
+	font-family: "Montserrat Alternates",sans-serif;
+	font-weight: 500;
+}
+.paragraph {
+	font-family: "Proxima Nova Light",sans-serif;
+	font-weight: 300;
+	color: crimson;
+	font-size: 36px;
+	text-transform: lowercase;
+	white-space:nowrap;
+}
+p.text {
+	text-transform: capitalize;
+	letter-spacing: 5px;
+}
+li {
+	font-size: 20px;
+	line-height: 180%; /* 36/20 */
+}
+.item li{
+	color: darkgreen;
+	word-spacing: 10px;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+a {
+	color: coral;
+	word-spacing: 300px;
+}
+h4 {
+	font-size: 40px;
+	font-family: "Proxima Nova Semibold", sans-serif;
+	font-weight: 400;
+	text-align: left;
+	color:#2b2929;
+	font-style: normal;
+	line-height: 48px;
+}
+.name {
+	font-family:"Montserrat Alternates",sans-serif;
+		color: aqua;
+		font-weight: 700;
+}
+.sub-title {
+	color: darkcyan;
+	font-size: 10px;
+}
+
+.text p {
+	font-family: "Proxima Nova Regular",sans-serif;
+	color: #2b2929;
+	font-weight: 400;
+	text-align: left;
+	font-style: normal;
+	line-height:187.5%; /* 30/16 */
+	font-size: 16;
+	text-transform: none;
+}
+h5 {
+	font-size: 20;
+	line-height: 140%; /* 28/20 */
+	font-family: "Proxima Nova Semibold",sans-serif;
+	font-weight: 600;
+	
+}
+.footer {
+	font-size: 16px;
+	line-height:187.5%; /* 30/16 */
+}
