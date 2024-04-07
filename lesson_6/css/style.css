@@ -1,5 +1,6 @@
 @import url("fonts.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,600,700&display=swap");
 
 @import url("reset.css");
 
@@ -69,12 +70,18 @@ h2:hover {
 	border: 2px solid transparent;
 }
 .div {
-	padding-left: 45px;
 	width: 95%;
 	margin: 0 auto;
 }
-.div p {
+.div-1,
+.div-2,
+.div-3,
+.div-4,
+.div-5 {
+	background: url("../img/Vector.jpg") 0 0/32px no-repeat;
+	padding-left: 40px;
 	margin-bottom: 20px;
+	min-height: 32px;
 }
 a {
 	color: aqua;
@@ -85,42 +92,199 @@ a {
 }
 span {
 	padding-left: 50px;
-	border: 3px solid red;
+	outline: 10px solid red;
 }
 .div-6 {
 	margin-bottom: 50px;
 }
 .paragraph {
-	background-color: #4a3a56;
-	width: 100%;
+	margin: 0 -5px;
+}
+.paragraph {
+	background-color: #5d079eca;
 	padding: 40px;
 	text-align: center;
+	border-radius: 99% 0% 100% 1%;
+	margin-bottom: 100px;
+	box-shadow: inset 0 30px 40px rgba(0, 0, 100, 0.5);
 }
 .about {
 	display: inline-block;
-	width: 200px;
+	max-width: 200px;
+	width: 100%;
 	background-color: #9d81a6;
 	outline: 10px solid royalblue;
-	margin-bottom: 20px;
 	margin-right: 50px;
 }
 .about-2 {
-	display: inline-block;
-	width: 200px;
+	max-width: 200px;
+	width: 100%;
 	background-color: aliceblue;
 	margin-right: 50px;
-	margin-bottom: 20px;
+	border-radius: 10px;
+	display: inline-block;
+	box-shadow: 0 0 25px 5px #f4022e;
+	padding: 20px;
 }
 .about-3 {
 	display: inline-block;
-	width: 200px;
+	max-width: 200px;
+	width: 100%;
 	background-color: aqua;
 	margin-right: 50px;
-	margin-bottom: 20px;
+	border: 5px dashed red;
+}
+.about-3:hover {
+	border: 5px dashed transparent;
 }
 .about-4 {
 	display: inline-block;
-	width: 200px;
+	max-width: 200px;
+	width: 100%;
 	background-color: chartreuse;
-	margin-bottom: 20px;
+	padding: 25px;
+	outline: 5px solid blue;
+	outline-offset: 5px;
+}
+.all {
+	background-color: rgb(241, 41, 15);
+	padding-left: 20px;
+	padding-top: 40px;
+	margin-bottom: 50px;
+}
+.round {
+	width: 200px;
+	height: 200px;
+	background-color: #9d81a6;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 80px;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 20px;
+	box-shadow:
+		inset 0 0 5px 10px #2b29297e,
+		5px 5px 5px 10px rgb(238, 255, 0);
+}
+.hidden {
+	width: 100%;
+	max-width: 500px;
+	background-color: aqua;
+	font-size: 20px;
+	border-radius: 200px 40px 100px 20px;
+	overflow: hidden;
+	border: 5px solid rgb(28, 102, 13);
+	display: inline-block;
+}
+.room {
+	border-radius: 100% 0% 66% 34%;
+	max-width: 300px;
+	width: 100%;
+	display: inline-block;
+	margin-top: 150px;
+	border: 7px solid;
+}
+.span-border {
+	outline: none;
+	background-color: #00008b46;
+	border-radius: 8px;
+	padding-left: 0;
+}
+.button {
+	color: green;
+	border-bottom: none;
+	background-color: #f4022e;
+	padding: 20px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	box-shadow: 4px 10px 5px rgb(0, 0, 50);
+	margin-top: 40px;
+	margin-bottom: 40px;
+	opacity: 0.6;
+}
+.opacity {
+	background-color: #f4022e;
+	opacity: 0;
+}
+.background {
+	padding: 20px;
+	background-image: url("../img/img_1.png");
+	margin-bottom: 40px;
+	color: azure;
+	background-position: center;
+	background-size: cover;
+}
+.gradient {
+	background-color: aquamarine;
+	background-image: url("../img/Vector.jpg");
+	background-repeat: repeat-x;
+	margin-bottom: 40px;
+}
+.repeat {
+	background-image: url("../img/repeat.jpg");
+	color: azure;
+	margin-bottom: 40px;
+	background-attachment: fixed;
+}
+.repeat-inline {
+	background-image: url("../img/img-4.png");
+	background-repeat: no-repeat;
+	background-position: 40px 10px;
+	margin-bottom: 40px;
+}
+.back-size {
+	background-color: coral;
+	background-image: url("../img/img_1.png");
+	background-size: auto 100px;
+	margin-bottom: 40px;
+}
+.block {
+	background:
+		url("../img/img_1.png") center/200px no-repeat,
+		cyan url("../img/Vector.jpg") center/250px no-repeat scroll;
+	margin-bottom: 50px;
+}
+.explore {
+	margin-bottom: 50px;
+	background-image:
+		url("../img/Kid-On-Books.png") right/515px no-repeat,
+		url("../img/bg-gradient.jpg");
+	padding-left: 80px;
+	padding-top: 121px;
+	padding-right: 133px;
+	padding-bottom: 121px;
+}
+.explore-course {
+	max-width: 600px;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+	color: #fff;
+	font-family: "Quicksand", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 160%; /* 32/20 */
+	text-transform: none;
+	margin-bottom: 24px;
+}
+h3 {
+	font-size: 40px;
+	line-height: 48px;
+	margin-bottom: 24px;
+	font-weight: 700;
+}
+
+.link {
+	color: #0d1216;
+	border: none;
+	width: 100%;
+	max-width: 217px;
+	padding: 12px 20px;
+	align-items: center;
+	border-radius: 8px 8px 8px 8px;
+	background-color: #fff;
+	font-size: 16px;
+	line-height: 25px;
+	text-transform: none;
 }
