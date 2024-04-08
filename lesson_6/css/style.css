@@ -1,5 +1,5 @@
 @import url("fonts.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Quicksand:500,600,700&display=swap");
 
 @import url("reset.css");
@@ -246,19 +246,22 @@ span {
 	margin-bottom: 50px;
 }
 .explore {
+	width: 1440px;
+	margin: 0 auto;
+	font-size: 0;
 	margin-bottom: 50px;
-	background-image:
-		url("../img/Kid-On-Books.png") right/515px no-repeat,
-		url("../img/bg-gradient.jpg");
+	background:
+		url("../img/Kid-On-Books.png") right/547px no-repeat,
+		url("../img/bg-gradient.jpg") 0 0 / cover no-repeat rgb(145, 76, 255);
 	padding-left: 80px;
+	padding-right: 80px;
 	padding-top: 121px;
-	padding-right: 133px;
 	padding-bottom: 121px;
+	vertical-align: middle;
 }
 .explore-course {
 	max-width: 600px;
 	width: 100%;
-	display: inline-block;
 	text-align: left;
 	color: #fff;
 	font-family: "Quicksand", sans-serif;
@@ -267,6 +270,7 @@ span {
 	line-height: 160%; /* 32/20 */
 	text-transform: none;
 	margin-bottom: 24px;
+	margin-right: 133px;
 }
 h3 {
 	font-size: 40px;
@@ -278,13 +282,58 @@ h3 {
 .link {
 	color: #0d1216;
 	border: none;
-	width: 100%;
-	max-width: 217px;
 	padding: 12px 20px;
 	align-items: center;
 	border-radius: 8px 8px 8px 8px;
 	background-color: #fff;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 25px;
-	text-transform: none;
+}
+
+.buttom-main {
+	overflow: hidden;
+	max-width: 1920px;
+	margin: 0 auto;
+	background-color: rgba(30, 40, 50, 0.05);
+	text-align: left;
+	color: #000;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	line-height: normal;
+}
+.collections {
+	padding-top: 299px;
+	padding-bottom: 184px;
+	padding-left: 300px;
+}
+.class {
+	display: inline-block;
+	max-width: 686px;
+	width: 100%;
+}
+h4 {
+	font-weight: 300;
+	line-height: 74.324324%; /* 55/74 */
+	font-size: 74px;
+	margin-bottom: 52px;
+}
+.box {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 183.333333%; /* 55/30 */
+	margin-bottom: 66px;
+}
+
+.conteiner {
+	border: none;
+	display: inline-block;
+	padding: 19px 26px 19px 64px;
+	color: #fff;
+	background: #1e2832 url("../img/icon.svg") 26px center/24px no-repeat;
+	font-size: 29px;
+}
+.visual {
+	max-width: 424px;
+	display: inline-block;
 }
