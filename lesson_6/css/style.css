@@ -14,10 +14,11 @@ body {
 	font-style: normal;
 	line-height: 187.5%; /* 30/16 */
 }
-h1 {
-	max-width: 1070px;
-	width: 95%;
+.conteiner-maket {
 	margin: 0 auto;
+	max-width: 1440px;
+}
+h1 {
 	font-size: 40px;
 	line-height: 120%; /* 48/40 */
 	font-weight: 400;
@@ -25,19 +26,17 @@ h1 {
 	width: 95%;
 	margin: 0 auto;
 	margin-top: 96px;
-	margin-bottom: 40px;
 	border: 10px solid #8605ad;
 }
 h1:hover {
 	border-color: aqua;
 }
 .main-top {
-	max-width: 1070px;
-	margin: 0 auto;
 	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 .image {
-	border-radius: 0px;
 	width: 100%;
 	font-size: 0;
 	width: 95%;
@@ -45,7 +44,6 @@ h1:hover {
 	border-right: 18px dashed red;
 	border-bottom: 7px dotted black;
 	border-left: 5px double palevioletred;
-	margin-bottom: 40px;
 }
 .image:hover {
 	border-right: 18px dashed transparent;
@@ -58,37 +56,24 @@ h1:hover {
 	margin-bottom: 10px;
 }
 .text {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
+	margin-bottom: 10px;
 }
 
 h2 {
 	line-height: 140%; /* 28/20 */
 	font-size: 20px;
 	font-weight: 600;
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
-	margin-bottom: 10px;
 	border: 2px solid blue;
 }
 h2:hover {
 	border: 2px solid transparent;
 }
-.div {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
+.div li {
+	margin-bottom: 20px;
 }
-.div-1,
-.div-2,
-.div-3,
-.div-4,
-.div-5 {
+li {
 	background: url("../img/Vector.jpg") 0 0/32px no-repeat;
 	padding-left: 40px;
-	margin-bottom: 20px;
 	min-height: 32px;
 }
 a {
@@ -103,17 +88,16 @@ span {
 	padding-left: 50px;
 	outline: 10px solid red;
 }
-.div-6 {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
+.span {
 	margin-bottom: 50px;
+	margin-left: 10px;
+	margin-right: -20px;
+}
+.conteiner-experiment {
+	margin: 0 auto;
+	max-width: 1920px;
 }
 .paragraph {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
-	/* margin: 0 -5px; не пам*ятаю ,що хотіла від цього мерджина,напеано фант відступи*/
 	background-color: #5d079eca;
 	padding: 40px;
 	text-align: center;
@@ -160,9 +144,6 @@ span {
 	outline-offset: 5px;
 }
 .all {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
 	background-color: rgb(241, 41, 15);
 	padding-left: 20px;
 	padding-top: 40px;
@@ -207,6 +188,9 @@ span {
 	border-radius: 8px;
 	padding-left: 0;
 }
+.li a {
+	margin-bottom: 40px;
+}
 .button {
 	display: inline-block;
 	margin: 0 auto;
@@ -218,7 +202,6 @@ span {
 	text-transform: uppercase;
 	box-shadow: 4px 10px 5px rgb(0, 0, 50);
 	margin-top: 40px;
-	margin-bottom: 40px;
 	opacity: 0.6;
 }
 .opacity {
@@ -227,9 +210,6 @@ span {
 	margin-bottom: 40px;
 }
 .background {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
 	padding: 20px;
 	background-image: url("../img/img_1.png");
 	margin-bottom: 40px;
@@ -238,36 +218,24 @@ span {
 	background-size: cover;
 }
 .gradient {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
 	background-color: aquamarine;
 	background-image: url("../img/Vector.jpg");
 	background-repeat: repeat-x;
 	margin-bottom: 40px;
 }
 .repeat {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
 	background-image: url("../img/repeat.jpg");
 	color: azure;
 	margin-bottom: 40px;
 	background-attachment: fixed;
 }
 .repeat-inline {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
 	background-image: url("../img/img-4.png");
 	background-repeat: no-repeat;
 	background-position: 40px 10px;
 	margin-bottom: 40px;
 }
 .back-size {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
 	/* під низом колір для експерименту */
 	background-color: coral;
 	background-image: url("../img/img_1.png");
@@ -275,19 +243,12 @@ span {
 	margin-bottom: 40px;
 }
 .block {
-	width: 95%;
-	margin: 0 auto;
-	max-width: 1070px;
 	background:
 		url("../img/img_1.png") center/200px no-repeat,
 		cyan url("../img/Vector.jpg") center/250px no-repeat scroll;
 	margin-bottom: 50px;
 }
 .explore {
-	font-size: 0;
-	width: 95%;
-	max-width: 1440px;
-	margin: 0 auto;
 	font-size: 0;
 	margin-bottom: 50px;
 	background:
@@ -314,8 +275,10 @@ span {
 h3 {
 	font-size: 40px;
 	line-height: 48px;
-	margin-bottom: 24px;
 	font-weight: 700;
+}
+.explore-course h3 {
+	margin-bottom: 24px;
 }
 
 .link {
@@ -330,9 +293,6 @@ h3 {
 	line-height: 25px;
 }
 .collections {
-	max-width: 1920px;
-	margin: 0 auto;
-	font-size: 0;
 	background-color: rgba(30, 40, 50, 0.05);
 }
 .collections-container {
@@ -360,13 +320,14 @@ h3 {
 	margin-bottom: 52px;
 	border: none;
 }
+.div.collections-body {
+	margin-bottom: 66px;
+}
 .collections-text {
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 183.333333%; /* 55/30 */
-	margin-bottom: 66px;
 }
-
 .collections-link {
 	border: none;
 	display: inline-block;
