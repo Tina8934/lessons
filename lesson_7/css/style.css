@@ -1,0 +1,424 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Sedan:italic&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi+Fun:500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Chenla:regular&display=swap");
+@import url("reset.css");
+
+body {
+	font-family:
+		Reem Kufi Fun,
+		sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #2b2929;
+	font-style: normal;
+	text-align: left;
+	line-height: 150%; /* 24/16 */
+}
+/* body:hover {
+	background-color: rgba(165, 237, 148, 0.555);
+} */
+
+.header {
+	padding-top: 40px;
+	margin-bottom: 40px;
+	font-size: 40px;
+}
+h1 {
+	text-align: center;
+}
+.conteiner-body {
+	background-color: rgba(137, 43, 226, 0.074);
+	width: 300px;
+	padding: 30px;
+	margin-bottom: 40px;
+	background-image: url("../img/user-remove.svg");
+	background-repeat: no-repeat;
+	background-position: 95% 5%;
+	background-size: 40px 50px;
+	margin: 0 auto;
+}
+.conteiner-body:hover {
+	background-position: 95% 95%;
+	background-color: chartreuse;
+}
+.link-link {
+	padding-left: 50px;
+	margin-bottom: 40px;
+}
+.link-link a {
+	margin-right: 40px;
+}
+.link {
+	color: rgb(9, 9, 9);
+	background-color: rgb(79, 9, 164);
+	padding: 20px;
+	border-radius: 20px;
+	font-family: Sedan, serif;
+	font-style: italic;
+}
+.link span {
+	display: inline-block;
+	background: url("../img/Email.svg") 0 center no-repeat;
+	padding-left: 35px;
+}
+.link:hover {
+	color: blueviolet;
+	background-color: black;
+	font-style: normal;
+}
+.link:hover span {
+	background: url("../img/favourite.svg") 0 bottom no-repeat;
+}
+.link:active {
+	background-color: crimson;
+	color: aquamarine;
+}
+.block {
+	margin-bottom: 100px;
+	padding-left: 100px;
+}
+.conteiner-text {
+	display: inline-block;
+	margin-right: 50px;
+}
+.div-text {
+	background-color: aqua;
+	padding: 20px;
+	width: 400px;
+	height: 435px;
+}
+.conteiner-list {
+	background-color: bisque;
+	display: inline-block;
+	width: 400px;
+	height: 435px;
+	padding: 40px;
+	vertical-align: top;
+}
+.conteiner-list:active {
+	background-color: blue;
+}
+.style-block {
+	padding-left: 40px;
+	margin-bottom: 50px;
+}
+
+/* padding-left 120px це просто щоб посилання було напроти тексту */
+.style-link {
+	display: inline-block;
+	color: aqua;
+	padding-left: 120px;
+}
+.style-link:hover {
+	text-decoration: underline;
+}
+.style {
+	background-color: cornflowerblue;
+	max-width: 300px;
+	padding: 30px;
+	display: none;
+}
+.style:target {
+	display: block;
+}
+.conteiner-focus {
+	margin-bottom: 50px;
+}
+.focus {
+	background-color: black;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 20px;
+}
+.focus:focus-visible {
+	outline: 2px dashed red;
+}
+.paragraf p:first-child {
+	background-color: rgba(0, 0, 255, 0.733);
+}
+.paragraf p:last-child {
+	background-color: blueviolet;
+}
+.paragraf {
+	margin-bottom: 50px;
+}
+.content p:first-of-type {
+	background-color: aqua;
+}
+.content p:last-of-type {
+	text-transform: uppercase;
+}
+.content {
+	margin-bottom: 50px;
+}
+.alternation p:nth-child(odd) {
+	background-color: chartreuse;
+}
+.alternation {
+	margin-bottom: 50px;
+}
+.algorytm p:nth-child(2),
+.algorytm p:nth-child(5),
+.algorytm p:nth-child(7),
+.algorytm p:nth-child(11) {
+	background-color: aquamarine;
+}
+.algorytm {
+	margin-bottom: 50px;
+}
+.algorytm p:not(:last-child) {
+	margin-bottom: 15px;
+}
+.alternation-through p:nth-child(2n + 3) {
+	background-color: chocolate;
+}
+.alternation-through p {
+	margin-bottom: 20px;
+}
+.alternation-through p:nth-child(3) {
+	margin-bottom: 0;
+}
+.alternation-through:has(span) {
+	background-color: rgb(181, 199, 15);
+}
+.alternation-through {
+	margin-bottom: 50px;
+}
+.article {
+	padding-left: 100px;
+	margin-bottom: 50px;
+}
+.article > * {
+	margin-bottom: 15px;
+}
+
+.title {
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+.content-text {
+	line-height: 2;
+}
+.buttom {
+	background-color: red;
+	padding: 15px;
+	color: azure;
+	display: inline-block;
+}
+.buttom:hover {
+	background-color: rgb(245, 61, 61);
+}
+.article > *:last-child {
+	margin-bottom: 0;
+}
+.conteiner-list-item {
+	margin-bottom: 50px;
+	padding-left: 40px;
+}
+.list-item::before {
+	content: "";
+	vertical-align: middle;
+	background: url("../img/Email.svg") 0 0 / 100% no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 15px;
+}
+.list-item:hover::before {
+	opacity: 0.5;
+}
+.list-item::after {
+	content: "";
+	background: url("../img/Email.svg") 0 0 /100% no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+/* ====================================================================== */
+/* about */
+.about-me {
+	background-image: url("../img/About\ section.png");
+	color: #fff;
+	background-color: #040404;
+	margin-bottom: 50px;
+}
+.conteiner-about-me {
+	max-width: 1140px;
+	margin: 0 auto;
+	font-family: "Exo", sans-serif;
+}
+.body-about-me {
+	max-width: 992px;
+	margin: 0 auto;
+	padding-top: 40px;
+	text-align: center;
+}
+.title-about-me {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 1.16;
+}
+.title-about-me span {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.title-about-me:not(:last-child) {
+	margin-bottom: 20px;
+}
+.title-about-me::after {
+	content: "";
+	display: block;
+	height: 1px;
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 47%, rgba(36, 0, 255, 1) 100%);
+	min-width: 133%;
+	margin-left: -16.5%;
+}
+.text-about-me {
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 2.22;
+}
+-------------------------------------------------------/* about me list */
+.about-me-list-wraper {
+	background-color: #040404;
+}
+.about-me-list {
+	text-align: center;
+	padding: 30px 0;
+	font-family: "Orbitron", sans-serif;
+}
+.about-me-list li {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.25;
+}
+.about-me-list li:not(:last-child) {
+	margin-right: 60px;
+}
+
+.about-me-list li:after {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-left: 60px;
+	border-radius: 100%;
+	background: linear-gradient(90deg, #f00 0%, #42ff00 48.9%, #2400ff 100%);
+}
+-----------------------------------------------------------/* contacts-list */
+
+.contacts-list-wraper {
+	color: #fff;
+}
+.contacts-list {
+	padding: 30px 0;
+	text-align: center;
+}
+.contacts-list li {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1;
+}
+.contacts-list li:not(:last-child) {
+	margin-right: 80px;
+}
+.phone::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Call.svg") 0 0 / 100% no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 15px;
+	vertical-align: middle;
+	margin-right: 24px;
+}
+.map {
+	text-transform: capitalize;
+}
+.map::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Location.svg") 0 0 / 100% no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 15px;
+	vertical-align: top;
+	margin-right: 24px;
+}
+.email::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Email.svg") 0 0 / 100% no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 15px;
+	vertical-align: middle;
+	margin-right: 24px;
+}
+/* }--------------------------------------------------------------------------ARTICLE */
+.wraper-article {
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2b2929;
+	font-style: normal;
+	text-align: left;
+	font-style: normal;
+	line-height: 1.87;
+	margin: 0 auto;
+	max-width: 1440px;
+}
+.top-title {
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.2;
+	padding: 0 0 32px 0;
+}
+img {
+	width: 100%;
+	border-radius: 8px;
+}
+.paragraph-block {
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+.paragraph-block *:not(:last-child) {
+	margin-bottom: 10px;
+}
+.paragraph-block p:last-child {
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 600;
+}
+/* -------------------------------------------------------------L!ST */
+.paragraph-list {
+	padding-left: 40px;
+	margin-bottom: 40px;
+}
+.paragraph-list li:not(:last-child) {
+	margin-bottom: 20px;
+}
+.paragraph-list li::before {
+	content: "";
+	background: url("../img/Vector.jpg") 0 0 / 100% no-repeat;
+	margin-right: 20px;
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+}
+/* ось що я скажу,або я дуже втомилася,або це не моє */
+/* груу я не зробила,зроблю чуть пізніше */
+/* дякую за перевірку */
