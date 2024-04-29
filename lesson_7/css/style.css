@@ -1,0 +1,562 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Sedan:italic&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi+Fun:500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Chenla:regular&display=swap");
+@import url("reset.css");
+
+body {
+	font-family:
+		Reem Kufi Fun,
+		sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #2b2929;
+	font-style: normal;
+	text-align: left;
+	line-height: 150%; /* 24/16 */
+}
+.header {
+	padding-top: 40px;
+	margin-bottom: 40px;
+	font-size: 40px;
+}
+h1 {
+	text-align: center;
+}
+/* conteiner-body----------------------------------------------------------- */
+.conteiner-body {
+	background-color: rgba(137, 43, 226, 0.074);
+	width: 300px;
+	padding: 30px;
+	margin-bottom: 40px;
+	background-image: url("../img/user-remove.svg");
+	background-repeat: no-repeat;
+	background-position: 95% 5%;
+	background-size: 40px 50px;
+	margin: 0 auto;
+}
+.conteiner-body:hover {
+	background-position: 95% 95%;
+	background-color: chartreuse;
+}
+/* link-link------------------------------------------------------------ */
+.link-link {
+	padding-left: 50px;
+	margin-bottom: 40px;
+}
+.link-link a {
+	margin-right: 40px;
+}
+.link {
+	color: rgb(9, 9, 9);
+	background-color: rgb(79, 9, 164);
+	padding: 20px;
+	border-radius: 20px;
+	font-family: Sedan, serif;
+	font-style: italic;
+}
+.link span {
+	display: inline-block;
+	background: url("../img/Email.svg") 0 center no-repeat;
+	padding-left: 35px;
+}
+.link:hover {
+	color: blueviolet;
+	background-color: black;
+	font-style: normal;
+}
+.link:hover span {
+	background: url("../img/favourite.svg") 0 bottom no-repeat;
+}
+.link:active {
+	background-color: crimson;
+	color: aquamarine;
+}
+/* block------------------------------------------------------------------ */
+.block {
+	margin-bottom: 100px;
+	padding-left: 100px;
+}
+.conteiner-text {
+	display: inline-block;
+	margin-right: 50px;
+}
+.div-text {
+	background-color: aqua;
+	padding: 20px;
+	width: 400px;
+	height: 435px;
+}
+/* conteiner-list---------------------------------------------------------- */
+.conteiner-list {
+	background-color: bisque;
+	display: inline-block;
+	width: 400px;
+	height: 435px;
+	padding: 40px;
+	vertical-align: top;
+}
+.conteiner-list:active {
+	background-color: blue;
+}
+.style-block {
+	padding-left: 40px;
+	margin-bottom: 50px;
+}
+/* style-link----------------------------------------------------- */
+/* padding-left 120px це просто щоб посилання було напроти тексту */
+.style-link {
+	display: inline-block;
+	color: aqua;
+	padding-left: 120px;
+}
+.style-link:hover {
+	text-decoration: underline;
+}
+.style {
+	background-color: cornflowerblue;
+	max-width: 300px;
+	padding: 30px;
+	display: none;
+}
+.style:target {
+	display: block;
+}
+/* conteiner-focus---------------------------------------------------------------- */
+.conteiner-focus {
+	margin-bottom: 50px;
+}
+.focus {
+	background-color: black;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 20px;
+}
+.focus:focus-visible {
+	outline: 2px dashed red;
+}
+/* paragraf-------------------------------------------------------------------- */
+.paragraf p:first-child {
+	background-color: rgba(0, 0, 255, 0.733);
+}
+.paragraf p:last-child {
+	background-color: blueviolet;
+}
+.paragraf {
+	margin-bottom: 50px;
+}
+/* content----------------------------------------------------------------------- */
+.content p:first-of-type {
+	background-color: aqua;
+}
+.content p:last-of-type {
+	text-transform: uppercase;
+}
+.content {
+	margin-bottom: 50px;
+}
+/* alternation-------------------------------------------------------------------- */
+.alternation p:nth-child(odd) {
+	background-color: chartreuse;
+}
+.alternation {
+	margin-bottom: 50px;
+}
+/* algorytm-------------------------------------------------------------------------- */
+.algorytm p:nth-child(2),
+.algorytm p:nth-child(5),
+.algorytm p:nth-child(7),
+.algorytm p:nth-child(11) {
+	background-color: aquamarine;
+}
+.algorytm {
+	margin-bottom: 50px;
+}
+.algorytm p:not(:last-child) {
+	margin-bottom: 15px;
+}
+/* alternation-through-------------------------------------------------------- */
+.alternation-through p:nth-child(2n + 3) {
+	background-color: chocolate;
+}
+.alternation-through p {
+	margin-bottom: 20px;
+}
+.alternation-through p:nth-child(3) {
+	margin-bottom: 0;
+}
+.alternation-through:has(span) {
+	background-color: rgb(181, 199, 15);
+}
+.alternation-through {
+	margin-bottom: 50px;
+}
+/* article-------------------------------------------------------------------- */
+.article {
+	padding-left: 100px;
+	margin-bottom: 50px;
+}
+.article > * {
+	margin-bottom: 15px;
+}
+
+.title {
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+.content-text {
+	line-height: 2;
+}
+.buttom {
+	background-color: red;
+	padding: 15px;
+	color: azure;
+	display: inline-block;
+}
+.buttom:hover {
+	background-color: rgb(245, 61, 61);
+}
+.article > *:last-child {
+	margin-bottom: 0;
+}
+/* conteiner-list-item--------------------------------------------------------- */
+.conteiner-list-item {
+	margin-bottom: 50px;
+	padding-left: 40px;
+}
+.list-item::before {
+	content: "";
+	vertical-align: middle;
+	background: url("../img/Email.svg") 0 0 / 100% no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 15px;
+}
+.list-item:hover::before {
+	opacity: 0.5;
+}
+.list-item::after {
+	content: "";
+	background: url("../img/Email.svg") 0 0 /100% no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+/* about-------------------------------------------------------------------------- */
+.about-me {
+	background-image: url("../img/About\ section.png");
+	color: #fff;
+	background-color: #040404;
+	margin-bottom: 50px;
+}
+.conteiner-about-me {
+	max-width: 1140px;
+	margin: 0 auto;
+	font-family: "Exo", sans-serif;
+}
+.body-about-me {
+	max-width: 992px;
+	margin: 0 auto;
+	padding-top: 40px;
+	text-align: center;
+}
+.title-about-me {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 1.16;
+}
+.title-about-me span {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.title-about-me:not(:last-child) {
+	margin-bottom: 20px;
+}
+.title-about-me::after {
+	content: "";
+	display: block;
+	height: 1px;
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 47%, rgba(36, 0, 255, 1) 100%);
+	min-width: 133%;
+	margin-left: -16.5%;
+}
+.text-about-me {
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 2.22;
+}
+/* about me list------------------------------------------------------- t */
+.about-me-list {
+	text-align: center;
+	font-family: "Orbitron", sans-serif;
+	padding: 30px 0;
+}
+.about-me-list li {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.25;
+}
+.about-me-list li:not(:last-child) {
+	margin-right: 60px;
+}
+
+.about-me-list li:after {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-left: 60px;
+	border-radius: 100%;
+	background: linear-gradient(90deg, #f00 0%, #42ff00 48.9%, #2400ff 100%);
+}
+/* contacts-list-----------------------------------------------------------  */
+
+.contacts-list {
+	padding: 30px 0;
+	text-align: center;
+}
+.contacts-list li {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1;
+}
+.contacts-list li:not(:last-child) {
+	margin-right: 80px;
+}
+.phone::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Call.svg") 0 0 / 100% no-repeat;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 24px;
+}
+.map {
+	text-transform: capitalize;
+}
+.map::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Location.svg") 0 0 / 100% no-repeat;
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+	margin-right: 24px;
+}
+.email::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Email.svg") 0 0 / 100% no-repeat;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 24px;
+}
+/*ARTICLE-------------------------------------------------------------------------- */
+.wraper-article {
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2b2929;
+	font-style: normal;
+	text-align: left;
+	font-style: normal;
+	line-height: 1.87;
+	margin: 0 auto;
+	max-width: 1440px;
+}
+.top-title {
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.2;
+	padding: 0 0 32px 0;
+}
+img {
+	width: 100%;
+	border-radius: 8px;
+}
+.paragraph-block {
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+.paragraph-block *:not(:last-child) {
+	margin-bottom: 10px;
+}
+.paragraph-block p:last-child {
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 600;
+}
+/* L!ST------------------------------------------------------------- */
+.paragraph-list {
+	margin-bottom: 40px;
+}
+.paragraph-list li {
+	padding-left: 46px;
+}
+.paragraph-list p {
+	display: inline-block;
+	vertical-align: top;
+}
+.paragraph-list li:not(:last-child) {
+	margin-bottom: 20px;
+}
+.paragraph-list li::before {
+	content: "";
+	background: url("../img/Vector.jpg") 0 0 / 100% no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	margin-left: -44px;
+	margin-right: 13px;
+	vertical-align: -8px;
+}
+/* game ------------------------------------------------------------- */
+
+.game {
+	padding: 50px 0;
+	background: linear-gradient(90deg, black 20%, red 50%, green 100%);
+}
+.game-title {
+	text-align: center;
+	font-size: 30px;
+	line-height: 1;
+	margin-bottom: 40px;
+	color: #fff;
+}
+.game-title span {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 3px;
+	text-transform: capitalize;
+}
+.game-title img {
+	vertical-align: middle;
+	max-width: 300px;
+}
+.game-body {
+	font-size: 0;
+	background-color: #040404;
+	min-height: 700px;
+}
+.game-item {
+	background-color: rebeccapurple;
+	display: inline-block;
+	vertical-align: top;
+	visibility: hidden;
+}
+.game-start {
+	width: 100px;
+	height: 50px;
+	margin-left: 150px;
+	visibility: visible;
+	font-size: 40px;
+	text-align: center;
+	padding: 7px 3px;
+	color: #fff;
+}
+.game-start:hover + .game-item-1,
+.game-item-1:hover {
+	visibility: visible;
+}
+.game-item-1 {
+	width: 50px;
+	height: 150px;
+	background-color: rgb(203, 163, 243);
+	margin-top: 50px;
+	margin-left: -75px;
+}
+.game-item-1:hover + .game-item-2,
+.game-item-2:hover {
+	visibility: visible;
+}
+.game-item-2 {
+	width: 1400px;
+	height: 50px;
+	background-color: #0c6ede;
+	margin-top: 200px;
+	margin-left: -50px;
+}
+.game-item-2:hover + .game-item-3,
+.game-item-3:hover {
+	visibility: visible;
+}
+.game-item-3 {
+	width: 30px;
+	height: 150px;
+	background-color: rgb(56, 232, 94);
+	margin-top: 250px;
+	margin-left: -30px;
+}
+.game-item-3:hover + .game-item-4,
+.game-item-4:hover {
+	visibility: visible;
+}
+.game-item-4 {
+	width: 700px;
+	height: 30px;
+	background-color: #0c6ede;
+	margin-left: 875px;
+}
+.game-item-4:hover + .game-item-5,
+.game-item-5:hover {
+	visibility: visible;
+}
+.game-item-5 {
+	width: 20px;
+	height: 150px;
+	background-color: rgb(56, 232, 94);
+	margin-top: 30px;
+	margin-left: -700px;
+}
+.game-item-5:hover + .game-item-6,
+.game-item-6:hover {
+	visibility: visible;
+}
+.game-item-6 {
+	width: 700px;
+	height: 20px;
+	background-color: #e98407;
+	margin-left: -720px;
+	margin-top: 160px;
+}
+.game-item-6:hover + .game-item-7,
+.game-item-7:hover {
+	visibility: visible;
+}
+.game-item-7 {
+	width: 15px;
+	height: 70px;
+	background-color: rgb(240, 43, 223);
+	margin-top: 180px;
+	margin-left: -700px;
+}
+.game-item-7:hover + .game-item-8,
+.game-item-8:hover {
+	visibility: visible;
+}
+.game-item-8 {
+	width: 300px;
+	height: 300px;
+	background: url("https://media2.giphy.com/media/42qTxnekKaXizqJdHD/giphy.webp?cid=790b7611cip56tjcwxj13zd99lk5fm0354k8kyiqw80zodp2&ep=v1_gifs_search&rid=giphy.webp&ct=g")
+		center 30% / cover no-repeat;
+	margin-top: 250px;
+	margin-left: -150px;
+}
