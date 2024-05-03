@@ -1,0 +1,59 @@
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Exo+2:700&display=swap");
+body {
+	background: linear-gradient(
+		90deg,
+		rgba(125, 0, 255, 0.7875525210084033) 30%,
+		rgba(81, 0, 255, 0.5130427170868348) 94%
+	);
+	line-height: 1.2;
+}
+.main {
+	background: url("../img/Frame.svg") right top/ contain no-repeat;
+}
+.wraper-title {
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 47%, rgba(36, 0, 255, 1) 100%);
+	margin: 0 auto;
+	max-width: 805px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+h1 {
+	font-family: "Exo 2";
+	font-size: 700;
+	font-size: 48px;
+	padding: 20px 0;
+}
+/* block-raster------------------------------------------ */
+.block-raster img {
+	max-width: 100px;
+}
+
+/*wraper-homewok---------------------------------------  */
+.wraper-homewok {
+	padding-bottom: 50px;
+	margin: 0 auto;
+	max-width: 1070px;
+	font-size: 0;
+}
+.wraper-homewok span {
+	font-size: 24px;
+}
+.wraper-homewok div:not(:last-of-type) {
+	margin-bottom: 50px;
+}
+.wraper-homewok img {
+	vertical-align: middle;
+}
+.wraper-homewok img:not(:last-child) {
+	margin-right: 40px;
+}
+.wraper-homewok span:last-child {
+	display: inline-block;
+}
+.image img {
+	margin-right: none;
+	margin-bottom: 30px;
+	border-radius: 8px;
+}
